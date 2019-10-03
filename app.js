@@ -68238,15 +68238,6 @@
                 return e === n.state.newPassword;
             }, n.isNotEmpty = function(e) {
                 return e && String(e).trim().length > 0;
-            }, n.isVerifiedPassword = function(e) {
-                var t = n.context.d2.Api.getApi();
-                return new Promise(function(r, o) {
-                    t.post("/me/verifyPassword", {
-                        password: e
-                    }).then(function(e) {
-                        !0 === e.isCorrectPassword ? r() : o(n.context.d2.i18n.getTranslation("please_enter_the_correct_password"));
-                    });
-                });
             }, n.clearRepeatPassword = function() {
                 return n.setState({
                     oldPassword: "",
@@ -68263,8 +68254,11 @@
                 }) : !0 !== e.valid ? g.default.showSnackbarMessage({
                     message: n.context.d2.i18n.getTranslation("fix_errors_and_try_again"),
                     status: "error"
-                }) : n.isNotEmpty(n.state.newPassword) && n.isNotEmpty(n.state.reNewPassword) ? w.default.setPassword(n.state.oldPassword, n.state.newPassword, n.clearRepeatPassword) : g.default.showSnackbarMessage({
-                    message: n.context.d2.i18n.getTranslation("password_do_not_match"),
+                }) : n.isNotEmpty(n.state.newPassword) && n.isNotEmpty(n.state.reNewPassword) ? n.isNotEmpty(n.state.oldPassword) ? w.default.setPassword(n.state.oldPassword, n.state.newPassword, n.clearRepeatPassword) : g.default.showSnackbarMessage({
+                    message: n.context.d2.i18n.getTranslation("old_password_empty"),
+                    status: "error"
+                }) : g.default.showSnackbarMessage({
+                    message: n.context.d2.i18n.getTranslation("passwords_do_not_match"),
                     status: "error"
                 });
             }, n.openTwoFactorDialog = function() {
@@ -68276,7 +68270,7 @@
                 newPassword: "",
                 reNewPassword: "",
                 wrongOldPasswordText: ""
-            }, n.isVerifiedPassword.message = "wrong_old_password", n;
+            }, n;
         }
         return u(t, e), s(t, [ {
             key: "render",
@@ -68306,9 +68300,8 @@
                     },
                     validators: [ {
                         validator: this.isNotEmpty,
-                        message: ""
-                    } ],
-                    asyncValidators: [ this.isVerifiedPassword ]
+                        message: this.context.d2.i18n.getTranslation("value_required")
+                    } ]
                 }, {
                     name: "newPassword",
                     component: v.default,
