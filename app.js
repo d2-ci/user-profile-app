@@ -25038,22 +25038,21 @@
         };
     }(), i = n(25), a = r(i), u = n(116), s = n(153), l = r(s), c = n(67), f = r(c), d = n(79), p = r(d), h = l.default.createActionsFromNames([ "setPassword", "setTwoFactorStatus", "getQrCode" ]);
     h.setPassword.subscribe(function(e) {
-        var t = o(e.data, 2), n = t[0], r = t[1], i = e.complete, s = e.error, l = {
-            userCredentials: {
-                password: n
-            }
+        var t = o(e.data, 3), n = t[0], r = t[1], i = t[2], s = e.complete, l = e.error, c = {
+            oldPassword: n,
+            newPassword: r
         };
         (0, u.getInstance)().then(function(e) {
-            e.Api.getApi().update("/me", l).then(function() {
+            e.Api.getApi().update("/me/changePassword", c).then(function() {
                 a.default.debug("Password updated successfully."), f.default.showSnackbarMessage({
                     message: e.i18n.getTranslation("password_update_success"),
                     status: "success"
-                }), r(), i();
+                }), i(), s();
             }).catch(function(t) {
                 f.default.showSnackbarMessage({
                     message: e.i18n.getTranslation("password_update_failed"),
                     status: "error"
-                }), a.default.error("Failed to update password:", t), s();
+                }), a.default.error("Failed to update password:", t), l();
             });
         });
     }), h.setTwoFactorStatus.subscribe(function(e) {
@@ -68239,15 +68238,6 @@
                 return e === n.state.newPassword;
             }, n.isNotEmpty = function(e) {
                 return e && String(e).trim().length > 0;
-            }, n.isVerifiedPassword = function(e) {
-                var t = n.context.d2.Api.getApi();
-                return new Promise(function(r, o) {
-                    t.post("/me/verifyPassword", {
-                        password: e
-                    }).then(function(e) {
-                        !0 === e.isCorrectPassword ? r() : o(n.context.d2.i18n.getTranslation("please_enter_the_correct_password"));
-                    });
-                });
             }, n.clearRepeatPassword = function() {
                 return n.setState({
                     oldPassword: "",
@@ -68264,8 +68254,11 @@
                 }) : !0 !== e.valid ? _.default.showSnackbarMessage({
                     message: n.context.d2.i18n.getTranslation("fix_errors_and_try_again"),
                     status: "error"
-                }) : n.isNotEmpty(n.state.newPassword) && n.isNotEmpty(n.state.reNewPassword) ? x.default.setPassword(n.state.newPassword, n.clearRepeatPassword) : _.default.showSnackbarMessage({
-                    message: n.context.d2.i18n.getTranslation("password_do_not_match"),
+                }) : n.isNotEmpty(n.state.newPassword) && n.isNotEmpty(n.state.reNewPassword) ? n.isNotEmpty(n.state.oldPassword) ? x.default.setPassword(n.state.oldPassword, n.state.newPassword, n.clearRepeatPassword) : _.default.showSnackbarMessage({
+                    message: n.context.d2.i18n.getTranslation("old_password_empty"),
+                    status: "error"
+                }) : _.default.showSnackbarMessage({
+                    message: n.context.d2.i18n.getTranslation("passwords_do_not_match"),
                     status: "error"
                 });
             }, n.openTwoFactorDialog = function() {
@@ -68277,7 +68270,7 @@
                 newPassword: "",
                 reNewPassword: "",
                 wrongOldPasswordText: ""
-            }, n.isVerifiedPassword.message = "wrong_old_password", n;
+            }, n;
         }
         return u(t, e), s(t, [ {
             key: "render",
@@ -68307,9 +68300,8 @@
                     },
                     validators: [ {
                         validator: this.isNotEmpty,
-                        message: ""
-                    } ],
-                    asyncValidators: [ this.isVerifiedPassword ]
+                        message: this.context.d2.i18n.getTranslation("value_required")
+                    } ]
                 }, {
                     name: "newPassword",
                     component: m.default,
