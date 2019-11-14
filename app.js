@@ -68315,7 +68315,8 @@
                         style: {
                             width: "100%"
                         },
-                        changeEvent: "onBlur"
+                        changeEvent: "onBlur",
+                        autoComplete: "new-password"
                     },
                     validators: [ {
                         validator: k.default,
@@ -68331,7 +68332,8 @@
                         style: {
                             width: "100%"
                         },
-                        changeEvent: "onBlur"
+                        changeEvent: "onBlur",
+                        autoComplete: "new-password"
                     },
                     validators: [ {
                         validator: this.isSamePassword,
