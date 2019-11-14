@@ -9,259 +9,256 @@ msgstr ""
 "POT-Creation-Date: 2016-12-01 00:28-0400\n"
 "PO-Revision-Date: 2019-09-02 16:41+0000\n"
 "Last-Translator: phil_dhis2, 2019\n"
-"Language-Team: Urdu (https://www.transifex.com/hisp-uio/teams/100509/ur/)\n"
+"Language-Team: Khmer (https://www.transifex.com/hisp-uio/teams/100509/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ur\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: km\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Translate Toolkit 2.0.0b3\n"
 
 #: user_profile
 msgid "User profile"
-msgstr "صارف پروفائل"
+msgstr ""
 
 #: account_settings
 msgid "Account settings"
-msgstr "اکاؤنٹ کی ترتیبات"
+msgstr ""
 
 #: user_settings
 msgid "User settings"
-msgstr "صارف کی ترتیبات"
+msgstr "ការ​កំណត់​​អ្នក​ប្រើប្រាស់"
 
 #: user_email_address
 msgid "E-mail"
-msgstr "ای میل"
+msgstr "សារ​អេឡិចត្រូនិក"
 
 #: surname
 msgid "Surname"
-msgstr "پاس ورڈ"
+msgstr "នាម​ត្រកូល​"
 
 #: first_name
 msgid "First name"
-msgstr "پہلا نام"
+msgstr "នាមខ្លួន"
 
 #: old_password
 msgid "Old password"
-msgstr "پرانا پاسورڈ"
+msgstr "ពាក្យ​សម្ងាត់​ចាស់"
 
 #: new_password
 msgid "New password"
-msgstr "نیا پاس ورڈ"
+msgstr "ពាក្យ​សម្ងាត់​ថ្មី"
 
 #: repeat_new_password
 msgid "Repeat new password"
-msgstr "نیا پاس ورڈ دوبارہ دو"
+msgstr ""
 
 #: openid
 msgid "OpenID"
-msgstr "OpenID"
+msgstr ""
 
 #: username
 msgid "Username"
-msgstr "صارف کا نام"
+msgstr "ឈ្មោះ​គណនី"
 
 #: phone_number
 msgid "Mobile phone number"
-msgstr "موبائل فون نمبر"
+msgstr "លេខ​ទូរស័ព្ទ​ដៃ"
 
 #: job_title
 msgid "Job title"
-msgstr "ملازمت کا عنوان"
+msgstr "មុខងារ​"
 
 #: introduction
 msgid "Introduction"
-msgstr "تعارف"
+msgstr "ការ​ណែនាំ"
 
 #: gender
 msgid "Gender"
-msgstr "صنف"
+msgstr "ភេទ"
 
 #: male
 msgctxt "male"
 msgid "Male"
-msgstr "مرد"
+msgstr "ប្រុស"
 
 #: female
 msgctxt "female"
 msgid "Female"
-msgstr "عورت"
+msgstr "ស្រី​"
 
 #: other
 msgctxt "other"
 msgid "Other"
-msgstr "دیگر"
+msgstr "ផ្សេង"
 
 #: gender_male
 msgctxt "gender_male"
 msgid "Male"
-msgstr "مرد"
+msgstr "ប្រុស"
 
 #: gender_female
 msgctxt "gender_female"
 msgid "Female"
-msgstr "عورت"
+msgstr "ស្រី​"
 
 #: gender_other
 msgctxt "gender_other"
 msgid "Other"
-msgstr "دیگر"
+msgstr "ផ្សេង"
 
 #: birthday
 msgid "Birthday"
-msgstr "سالگرہ"
+msgstr "ថ្ងៃកំណើត"
 
 #: nationality
 msgid "Nationality"
-msgstr "قومیت"
+msgstr "សញ្ជាតិ"
 
 #: employer
 msgid "Employer"
-msgstr "ملازم"
+msgstr "និយោជក"
 
 #: education
 msgid "Education"
-msgstr "تعلیم"
+msgstr "ការ​អប់រំ"
 
 #: interests
 msgid "Interests"
-msgstr "دلچسپی"
+msgstr "ចំណាប់អារម្មណ៍"
 
 #: languages
 msgid "Languages"
-msgstr "زبانیں"
+msgstr "ភាសា​"
 
 #: update_user_profile_success
 msgid "User profile updated"
-msgstr "صارف کا پروفائل اپ ڈیٹ"
+msgstr ""
 
 #: settings
 msgid "Settings"
-msgstr "ترتیبات"
+msgstr "ការ​កំណត់"
 
 #: property_to_display_in_analysis_modules
 msgctxt "property_to_display_in_analysis_modules"
 msgid "Property to display in analysis modules"
-msgstr "جائیداد تجزیہ ماڈیولز میں ظاہر کرنے کے لئے"
+msgstr ""
 
 #: general
 msgid "General"
-msgstr "جنرل"
+msgstr "ទូទៅ"
 
 #: message
 msgid "Message"
-msgstr "پیغام"
+msgstr "សារ"
 
 #: settings_updated
 msgid "Settings updated"
-msgstr "ترتیبات اپ ڈیٹ"
+msgstr ""
 
 #: failed_to_update_settings
 msgid "Failed to update settings"
-msgstr "ترتیبات کو اپ ڈیٹ کرنے میں ناکام"
+msgstr ""
 
 #: style
 msgid "Style"
-msgstr "انداز"
+msgstr "​រចនាបទ"
 
 #: db_language
 msgid "Database language"
-msgstr "ڈیٹا بیس زبان"
+msgstr ""
 
 #: language
 msgid "Interface language"
-msgstr "انٹرفیس زبان"
+msgstr "ផ្ទាំងភាសា"
 
 #: enable_message_email_notifications
 msgid "Enable message email notifications"
-msgstr "پیغام ای میل اطلاعات کو فعال کریں"
+msgstr ""
 
 #: enable_message_sms_notifications
 msgid "Enable message SMS notifications"
-msgstr "ایس ایم ایس کی اطلاعات کو فعال کریں"
+msgstr ""
 
 #: analysis_module
 msgctxt "analysis_module"
 msgid "Property to display in analysis modules"
-msgstr "جائیداد تجزیہ ماڈیولز میں ظاہر کرنے کے لئے"
+msgstr ""
 
 #: name
 msgid "Name"
-msgstr "نام"
+msgstr "ឈ្មោះ"
 
 #: short_name
 msgid "Short name"
-msgstr "مختصر نام"
+msgstr "ឈ្មោះ​​ខ្លី"
 
 #: system_default
 msgid "System default"
-msgstr "سسٹم ڈیفالٹ"
+msgstr ""
 
 #: value_should_be_an_email
 msgid "Please enter a valid email address"
-msgstr "برائے مہربانی قابل قبول ای میل ایڈریس لکھیں"
+msgstr ""
 
 #: update_user_profile_fail
 msgid "Failed to update user profile"
-msgstr "صارف پروفائل کو اپ ڈیٹ کرنے میں ناکام"
+msgstr ""
 
 #: update_settings_fail
 msgid "Fialed to update user settings"
-msgstr "صارف ترتیبات کو اپ ڈیٹ کرنے کے لئے Fialed"
+msgstr ""
 
 #: update_password
 msgid "Update password"
-msgstr "پاس ورڈ اپ ڈیٹ کریں"
+msgstr ""
 
 #: invalid_password
 msgid ""
 "Password should be at least 8 characters with at least 1 digit and 1 "
 "uppercase letter"
 msgstr ""
-"پاس ورڈ کم از کم 8 حروف ہونا چاہئے جس میں کم سے کم 1 ہندسوں اور 1 بڑے حروف "
-"موجود ہو"
 
 #: passwords_do_not_match
 msgid "The entered values do not match. Please re-enter."
-msgstr "درج کردہ اقدار مماثل نہیں ہیں. دوبارہ درج کریں."
+msgstr ""
 
 #: use_system_default
 msgid "Use system default"
-msgstr "سسٹم ڈیفالٹ کا استعمال کریں"
+msgstr ""
 
 #: true_notifications
 msgid "Yes"
-msgstr "جی ہاں"
+msgstr "បាទ/ចាស"
 
 #: false_notifications
 msgid "No"
-msgstr "نہیں"
+msgstr "ទេ"
 
 #: value_required
 msgid "This field can't be left blank"
-msgstr "یہ فیلڈ خالی نہیں جا سکتا"
+msgstr ""
 
 #: please_enter_the_correct_password
 msgid "Please enter the correct password"
-msgstr "براہ مہربانی درست پاس ورڈ درج کریں"
+msgstr ""
 
 #: no_changes_have_been_made
 msgid "No changes have been made"
-msgstr "کوئی تبدیلیاں نہیں کی گئی ہیں"
+msgstr ""
 
 #: validating_please_try_again
 msgid "The form is currently being validated. Please try again."
-msgstr "فارم فی الحال اس کی توثیق کی جا رہی ہے. دوبارہ کوشش کریں."
+msgstr ""
 
 #: fix_errors_and_try_again
 msgid "The form contains errors. Please fix the errors and try again."
 msgstr ""
-"فارم میں غلطیاں شامل ہیں. براہ کرم غلطیوں کو ٹھیک کریں اور دوبارہ کوشش کریں."
 
 #: password_update_success
 msgid "Your password was updated successfully"
-msgstr "آپ کا پاس ورڈ کامیابی سے اپ ڈیٹ کیا گیا تھا"
+msgstr ""
 
 #: password_update_failed
 msgid "Failed to update password"
-msgstr "پاس ورڈ کو اپ ڈیٹ کرنے میں ناکام"
+msgstr ""
