@@ -69387,16 +69387,20 @@
     } : function(e) {
         return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e;
     }, s = n(0), l = r(s), c = n(1), f = r(c), d = n(1679), p = r(d), h = function(e, t) {
-        if (!e) return t.i18n.getTranslation("not_applicable");
-        var n = t.currentUser.userSettings.settings.keyUiLocale, r = new Date(e), o = {
-            day: "numeric",
-            month: "long",
-            year: "numeric",
-            hour: "2-digit",
-            minute: "2-digit",
-            hour12: !1
-        };
-        return new Intl.DateTimeFormat(n, o).format(r);
+        try {
+            if (!e) return t.i18n.getTranslation("never");
+            var n = t.currentUser.userSettings.settings.keyUiLocale, r = new Date(e), o = {
+                day: "numeric",
+                month: "long",
+                year: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
+                hour12: !1
+            };
+            return new Intl.DateTimeFormat(n, o).format(r);
+        } catch (e) {
+            return t.i18n.getTranslation("invalid_date");
+        }
     }, y = {
         systemInfo: [ {
             label: "web_api",
