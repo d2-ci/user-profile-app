@@ -9,259 +9,256 @@ msgstr ""
 "POT-Creation-Date: 2016-12-01 00:28-0400\n"
 "PO-Revision-Date: 2019-09-02 16:42+0000\n"
 "Last-Translator: phil_dhis2, 2019\n"
-"Language-Team: Spanish (https://www.transifex.com/hisp-uio/teams/100509/es/)\n"
+"Language-Team: Lao (https://www.transifex.com/hisp-uio/teams/100509/lo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: lo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Translate Toolkit 2.0.0b3\n"
 
 #: user_profile
 msgid "User profile"
-msgstr "Perfil de usuario"
+msgstr ""
 
 #: account_settings
 msgid "Account settings"
-msgstr "Configuración de la cuenta"
+msgstr ""
 
 #: user_settings
 msgid "User settings"
-msgstr "Preferencias de usuario"
+msgstr "ການຕັ້ງຄ່າສໍາລັບຜູ້ຊົມໃຊ້"
 
 #: user_email_address
 msgid "E-mail"
-msgstr "Correo electrónico"
+msgstr "ອີເມວ"
 
 #: surname
 msgid "Surname"
-msgstr "Apellido"
+msgstr "ຊື່"
 
 #: first_name
 msgid "First name"
-msgstr "Nombre"
+msgstr "ນາມສະກຸນ"
 
 #: old_password
 msgid "Old password"
-msgstr "Contraseña antigua"
+msgstr "ລະຫັດເກົ່າ"
 
 #: new_password
 msgid "New password"
-msgstr "Contraseña nueva"
+msgstr "ລະຫັດໃໝ່"
 
 #: repeat_new_password
 msgid "Repeat new password"
-msgstr "Repita la contraseña"
+msgstr "ຢືນຢັນລະຫັດໃໝ່ອີກຄັ້ງ"
 
 #: openid
 msgid "OpenID"
-msgstr "OpenID:"
+msgstr "ໄອດີ"
 
 #: username
 msgid "Username"
-msgstr "Nombre de usuario"
+msgstr "ຊື່ຜູ້ໃຊ້"
 
 #: phone_number
 msgid "Mobile phone number"
-msgstr "Número de teléfono móvil"
+msgstr "ໝາຍເລກໂທລະສັບ"
 
 #: job_title
 msgid "Job title"
-msgstr "Cargo"
+msgstr "ອາຊີບ"
 
 #: introduction
 msgid "Introduction"
-msgstr "Introducción"
+msgstr "ລາຍລະອຽດອື່ນໆ"
 
 #: gender
 msgid "Gender"
-msgstr "Sexo"
+msgstr "ເພດ"
 
 #: male
 msgctxt "male"
 msgid "Male"
-msgstr "Masculino"
+msgstr "ຊາຍ"
 
 #: female
 msgctxt "female"
 msgid "Female"
-msgstr "Femenino"
+msgstr "ຍິງ"
 
 #: other
 msgctxt "other"
 msgid "Other"
-msgstr "Otro"
+msgstr "ອື່ນໆ"
 
 #: gender_male
 msgctxt "gender_male"
 msgid "Male"
-msgstr "Masculino"
+msgstr "ຊາຍ"
 
 #: gender_female
 msgctxt "gender_female"
 msgid "Female"
-msgstr "Femenino"
+msgstr "ຍິງ"
 
 #: gender_other
 msgctxt "gender_other"
 msgid "Other"
-msgstr "Otro"
+msgstr "ອື່ນໆ"
 
 #: birthday
 msgid "Birthday"
-msgstr "Fecha de nacimiento"
+msgstr "ວັນເດືອນປີເກີດ"
 
 #: nationality
 msgid "Nationality"
-msgstr "Nacionalidad"
+msgstr "ສັນຊາດ"
 
 #: employer
 msgid "Employer"
-msgstr "Empleador"
+msgstr "ຕຳແໜ່ງ"
 
 #: education
 msgid "Education"
-msgstr "Educación"
+msgstr "ລະດັບການສືກສາ"
 
 #: interests
 msgid "Interests"
-msgstr "Intereses"
+msgstr "ສິ່ງທີ່ສົນໃຈ"
 
 #: languages
 msgid "Languages"
-msgstr "Idiomas"
+msgstr "ພາສາ"
 
 #: update_user_profile_success
 msgid "User profile updated"
-msgstr "Perfil de usuario actualizado"
+msgstr "ໂປຟາຍຜູ້ໃຊ້ໄດ້ຖືກອັບເດດ"
 
 #: settings
 msgid "Settings"
-msgstr "Configuración"
+msgstr "ຕັ້ງຄ່າ"
 
 #: property_to_display_in_analysis_modules
 msgctxt "property_to_display_in_analysis_modules"
 msgid "Property to display in analysis modules"
-msgstr "Propiedad que se mostrará en los módulos de análisis"
+msgstr "ສື່ງທີ່ສາມາດນໍາສະເໜີ ໃນໂມດູນຂອງການວິໄຈ"
 
 #: general
 msgid "General"
-msgstr "General"
+msgstr "ທົ່ວໄປ"
 
 #: message
 msgid "Message"
-msgstr "Mensaje"
+msgstr "ຂໍ້ຄວາມ"
 
 #: settings_updated
 msgid "Settings updated"
-msgstr "Configuración actualizada"
+msgstr "ການຕັ້ງຄ່ານີ້ໄດ້ຖືກບັນທຶກ"
 
 #: failed_to_update_settings
 msgid "Failed to update settings"
-msgstr "Error al actualizar la configuración"
+msgstr "ບໍ່ສາມາດບັນທຶກການຕັ້ງຄ່ານີ້ໄດ້"
 
 #: style
 msgid "Style"
-msgstr "Estilo"
+msgstr "ລັກສະນະ"
 
 #: db_language
 msgid "Database language"
-msgstr "Idioma de la base de datos"
+msgstr "ພາສາຂໍ້ມູນໃນລະບົບ"
 
 #: language
 msgid "Interface language"
-msgstr "Idioma de la interfaz"
+msgstr "ພາສາສະແດງຜົນ"
 
 #: enable_message_email_notifications
 msgid "Enable message email notifications"
-msgstr "Habilitar notificaciones de correo electrónico"
+msgstr "ອະນຸຍາດໃຫ້ລະບົບສົ່ງອິເມວແຈ້ງເຕືອນໄດ້"
 
 #: enable_message_sms_notifications
 msgid "Enable message SMS notifications"
-msgstr "Habilitar notificaciones para SMS"
+msgstr "ອະນຸຍາດໃຫ້ລະບົບສົ່ງຂໍ້ຄວາມແຈ້ງເຕືອນໄດ້"
 
 #: analysis_module
 msgctxt "analysis_module"
 msgid "Property to display in analysis modules"
-msgstr "Propiedad que se mostrará en los módulos de análisis"
+msgstr "ສື່ງທີ່ສາມາດນໍາສະເໜີ ໃນໂມດູນຂອງການວິໄຈ"
 
 #: name
 msgid "Name"
-msgstr "Nombre"
+msgstr "ຊື່"
 
 #: short_name
 msgid "Short name"
-msgstr "Abreviatura"
+msgstr "ຊື່ສັ້ນ"
 
 #: system_default
 msgid "System default"
-msgstr "Sistema por defecto"
+msgstr "ໂຫຼດການຕັ້ງຄ່າດັ່ງເດີມ"
 
 #: value_should_be_an_email
 msgid "Please enter a valid email address"
-msgstr "Por favor, introduzca una dirección válida de correo electrónico"
+msgstr "ກະລຸນາໃສ່ອີເມວໃຫ້ຖືກຕ້ອງ"
 
 #: update_user_profile_fail
 msgid "Failed to update user profile"
-msgstr "Error al actualizar el perfil de usuario"
+msgstr "ບໍ່ສາມາດອັບເດດຂໍ້ມູນຜູ້ໃຊ້ໄດ້"
 
 #: update_settings_fail
 msgid "Fialed to update user settings"
-msgstr "Error al actualizar la configuración del usuario"
+msgstr "ບໍ່ສາມາດອັບເດດການຕັ້ງຄ່າຜູ້ໃຊ້ໄດ້"
 
 #: update_password
 msgid "Update password"
-msgstr "Actualizar contraseña"
+msgstr "ອັບເດດລະຫັດຜ່ານ"
 
 #: invalid_password
 msgid ""
 "Password should be at least 8 characters with at least 1 digit and 1 "
 "uppercase letter"
 msgstr ""
-"La contraseña debe tener al menos 8 caracteres con al menos 1 dígito y 1 "
-"letra mayúscula"
 
 #: passwords_do_not_match
 msgid "The entered values do not match. Please re-enter."
-msgstr "Los valores introducidos no coinciden. Vuelve a ingresarlos."
+msgstr "ລະຫັດຜ່ານບໍ່ກົງກັນ"
 
 #: use_system_default
 msgid "Use system default"
-msgstr "Usar opciones predeterminadas del sistema"
+msgstr "ໃຊ້ການຕັ້ງຄ່າຂອງລະບົບ"
 
 #: true_notifications
 msgid "Yes"
-msgstr "Sí"
+msgstr "ແມ່ນ"
 
 #: false_notifications
 msgid "No"
-msgstr "No"
+msgstr "ບໍ່"
 
 #: value_required
 msgid "This field can't be left blank"
-msgstr "Este campo no puede dejarse en blanco"
+msgstr "ຫ້ອງນີ້ບໍ່ສາມາດປະຫວ່າງໄດ້"
 
 #: please_enter_the_correct_password
 msgid "Please enter the correct password"
-msgstr "Por favor ingrese la contraseña correcta"
+msgstr "ກະລຸນາໃສ່ລະຫັດທີ່ຖືກຕ້ອງ"
 
 #: no_changes_have_been_made
 msgid "No changes have been made"
-msgstr "No se han realizado cambios"
+msgstr "ບໍ່ໄດ້ບັນທຶກການປ່ຽນແປງ"
 
 #: validating_please_try_again
 msgid "The form is currently being validated. Please try again."
-msgstr "El formulario está siendo validado. Vuelve a intentarlo."
+msgstr "ກະລຸນາລອງອີກຄັ້ງ"
 
 #: fix_errors_and_try_again
 msgid "The form contains errors. Please fix the errors and try again."
-msgstr ""
-"El formulario contiene errores. Corrija los errores e inténtelo de nuevo."
+msgstr "ເກິດຂໍຜິດພາດ"
 
 #: password_update_success
 msgid "Your password was updated successfully"
-msgstr "Tu contraseña se actualizó correctamente."
+msgstr "ລະຫັດຜ່ານຂອງທ່ານໄດ້ຖືກອັບເດດສຳເລັດ"
 
 #: password_update_failed
 msgid "Failed to update password"
-msgstr "No se pudo cambiar la contraseña"
+msgstr "ອັບເດດລະຫັດຜ່ານຫຼົ້ມເຫຼວ"
