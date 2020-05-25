@@ -1,6 +1,7 @@
 # 
 # Translators:
-# phil_dhis2, 2019
+# 晓东 林 <13981924470@126.com>, 2020
+# easylin <lin_xd@126.com>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -9,261 +10,257 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-01 00:28-0400\n"
 "PO-Revision-Date: 2019-09-02 16:42+0000\n"
-"Last-Translator: phil_dhis2, 2019\n"
-"Language-Team: French (https://www.transifex.com/hisp-uio/teams/100509/fr/)\n"
+"Last-Translator: easylin <lin_xd@126.com>, 2020\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/hisp-uio/teams/100509/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Translate Toolkit 2.0.0b3\n"
 
 #: user_profile
 msgid "User profile"
-msgstr "Profil utilisateur"
+msgstr "用户基本信息"
 
 #: account_settings
 msgid "Account settings"
-msgstr "Paramètres de compte"
+msgstr "帐号设置"
 
 #: user_settings
 msgid "User settings"
-msgstr "Paramètres d'utilisateur"
+msgstr "用户设置"
 
 #: user_email_address
 msgid "E-mail"
-msgstr "Courrier électronique"
+msgstr "E-mail"
 
 #: surname
 msgid "Surname"
-msgstr "Nom de famille"
+msgstr "姓"
 
 #: first_name
 msgid "First name"
-msgstr "Prénom"
+msgstr "姓"
 
 #: old_password
 msgid "Old password"
-msgstr "Ancien mot de passe"
+msgstr "旧口令"
 
 #: new_password
 msgid "New password"
-msgstr "Nouveau mot de passe"
+msgstr "新口令"
 
 #: repeat_new_password
 msgid "Repeat new password"
-msgstr "Répéter le mot de passe"
+msgstr "重复新口令"
 
 #: openid
 msgid "OpenID"
-msgstr "La valeur doit être un entier négatif"
+msgstr "OpenID"
 
 #: username
 msgid "Username"
-msgstr "Nom d'utilisateur"
+msgstr "用户名"
 
 #: phone_number
 msgid "Mobile phone number"
-msgstr "Numéro de téléphone portable"
+msgstr "电话号码"
 
 #: job_title
 msgid "Job title"
-msgstr "Intitulé de l'emploi"
+msgstr "工作职位"
 
 #: introduction
 msgid "Introduction"
-msgstr "Introduction"
+msgstr "介绍"
 
 #: gender
 msgid "Gender"
-msgstr "Genre"
+msgstr "性别"
 
 #: male
 msgctxt "male"
 msgid "Male"
-msgstr "Masculin"
+msgstr "男"
 
 #: female
 msgctxt "female"
 msgid "Female"
-msgstr "Féminin"
+msgstr "女"
 
 #: other
 msgctxt "other"
 msgid "Other"
-msgstr "Autre"
+msgstr "其它"
 
 #: gender_male
 msgctxt "gender_male"
 msgid "Male"
-msgstr "Masculin"
+msgstr "男"
 
 #: gender_female
 msgctxt "gender_female"
 msgid "Female"
-msgstr "Féminin"
+msgstr "女"
 
 #: gender_other
 msgctxt "gender_other"
 msgid "Other"
-msgstr "Autre"
+msgstr "其它"
 
 #: birthday
 msgid "Birthday"
-msgstr "Date de naissance"
+msgstr "生日"
 
 #: nationality
 msgid "Nationality"
-msgstr "Nationalité"
+msgstr "国籍"
 
 #: employer
 msgid "Employer"
-msgstr "Employeur"
+msgstr "雇主"
 
 #: education
 msgid "Education"
-msgstr "Éducation"
+msgstr "教育"
 
 #: interests
 msgid "Interests"
-msgstr "Intérêts"
+msgstr "兴趣"
 
 #: languages
 msgid "Languages"
-msgstr "Langues"
+msgstr "语言"
 
 #: update_user_profile_success
 msgid "User profile updated"
-msgstr "Profil d’utilisateur mis à jour."
+msgstr "用户概要已经更新"
 
 #: settings
 msgid "Settings"
-msgstr "Paramètres"
+msgstr "设置"
 
 #: property_to_display_in_analysis_modules
 msgctxt "property_to_display_in_analysis_modules"
 msgid "Property to display in analysis modules"
-msgstr "Propriété à afficher dans les modules analytiques"
+msgstr "Property to display in analysis modules"
 
 #: general
 msgid "General"
-msgstr "Général"
+msgstr "常规"
 
 #: message
 msgid "Message"
-msgstr "Message"
+msgstr "消息"
 
 #: settings_updated
 msgid "Settings updated"
-msgstr "Paramètres mis à jour"
+msgstr "设置已经更新"
 
 #: failed_to_update_settings
 msgid "Failed to update settings"
-msgstr "Échec de l'enregistrement des paramètres"
+msgstr "Failed to update settings"
 
 #: style
 msgid "Style"
-msgstr "Style"
+msgstr "风格"
 
 #: db_language
 msgid "Database language"
-msgstr "Langue de la base de données"
+msgstr "数据库语言"
 
 #: language
 msgid "Interface language"
-msgstr "Langue de l'interface"
+msgstr "界面语言"
 
 #: enable_message_email_notifications
 msgid "Enable message email notifications"
-msgstr "Autoriser les notifications de messages email"
+msgstr "打开邮件通知"
 
 #: enable_message_sms_notifications
 msgid "Enable message SMS notifications"
-msgstr "Autoriser les notifications de messages SMS"
+msgstr "打开短信通知"
 
 #: analysis_module
 msgctxt "analysis_module"
 msgid "Property to display in analysis modules"
-msgstr "Propriété à afficher dans les modules analytiques"
+msgstr "Property to display in analysis modules"
 
 #: name
 msgid "Name"
-msgstr "Nom"
+msgstr "名称"
 
 #: short_name
 msgid "Short name"
-msgstr "Nom court"
+msgstr "缩写名"
 
 #: system_default
 msgid "System default"
-msgstr "Valeur par défaut du système"
+msgstr "系统缺省"
 
 #: value_should_be_an_email
 msgid "Please enter a valid email address"
-msgstr "Veuillez saisir une adresse e-mail valide."
+msgstr "Please enter a valid email address"
 
 #: update_user_profile_fail
 msgid "Failed to update user profile"
-msgstr "Echec de la mise à jour du profil utilisateur"
+msgstr "Failed to update user profile"
 
 #: update_settings_fail
 msgid "Fialed to update user settings"
-msgstr "Echec de la mise à jour des paramètres utilisateur"
+msgstr "更新用户设置失败"
 
 #: update_password
 msgid "Update password"
-msgstr "Mettre à jour un mot de passe"
+msgstr "更新口令"
 
 #: invalid_password
 msgid ""
 "Password should be at least 8 characters with at least 1 digit and 1 "
 "uppercase letter"
-msgstr ""
-"Le mot de passe devrait contenir au moins 8 caractères dont au moins un "
-"chiffre et une lettre majuscule"
+msgstr "口令至少八个字符，且至少一个数字和大写字母"
 
 #: passwords_do_not_match
 msgid "The entered values do not match. Please re-enter."
-msgstr "Les valeurs saisies ne correspondent pas. Veuillez resaisir."
+msgstr "The entered values do not match. Please re-enter."
 
 #: use_system_default
 msgid "Use system default"
-msgstr "Utiliser les paramètres du système"
+msgstr "使用系统缺省"
 
 #: true_notifications
 msgid "Yes"
-msgstr "Oui"
+msgstr "Yes"
 
 #: false_notifications
 msgid "No"
-msgstr "Non"
+msgstr "No"
 
 #: value_required
 msgid "This field can't be left blank"
-msgstr "Ce champ ne peut rester vide"
+msgstr "该字段不能为空"
 
 #: please_enter_the_correct_password
 msgid "Please enter the correct password"
-msgstr "Veuillez saisir votre mot de passe correcte"
+msgstr "请输入正确的口令"
 
 #: no_changes_have_been_made
 msgid "No changes have been made"
-msgstr "Aucune modification effectuée"
+msgstr "没有改变"
 
 #: validating_please_try_again
 msgid "The form is currently being validated. Please try again."
-msgstr "Le formulaire est en cours de validation. Veuillez ressayer."
+msgstr "The form is currently being validated. Please try again."
 
 #: fix_errors_and_try_again
 msgid "The form contains errors. Please fix the errors and try again."
-msgstr ""
-"Le formulaire contient des erreurs. Veuillez corriger les erreurs puis "
-"ressayer."
+msgstr "The form contains errors. Please fix the errors and try again."
 
 #: password_update_success
 msgid "Your password was updated successfully"
-msgstr "Votre mot de passe a été changé avec succès"
+msgstr "Your password was updated successfully"
 
 #: password_update_failed
 msgid "Failed to update password"
-msgstr "Impossible de mettre à jour le mot de passe"
+msgstr "Failed to update password"
