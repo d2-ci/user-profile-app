@@ -24584,7 +24584,7 @@
     n.d(t, "wordToValidatorMap", function() {
         return x;
     });
-    var v = /^https?:\/\/[^ ]*/i, m = /[^ ]*/i, b = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, g = /^(?=.*\d)/, _ = /^(?=.*[A-Z])/, w = /[!@#$%^&*(),.?":{}|<>]/;
+    var v = /^https?:\/\/[^ ]*/i, m = /[^ ]*/i, b = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/, g = /^(?=.*\d)/, _ = /^(?=.*[A-Z])/, w = /[!@#$%^&*(),.?":{}|<>]/;
     i.message = "value_should_be_empty_string", a.message = "value_should_be_empty_string_or_undefined", 
     u.message = "value_required", s.message = "value_should_be_a_url", l.message = "value_should_be_a_relative_url", 
     c.message = "value_should_be_list_of_urls", f.message = "value_should_be_an_email", 
