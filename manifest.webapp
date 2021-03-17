@@ -1,23 +1,26 @@
 {
+  "appType": "APP",
+  "short_name": "user-profile",
+  "name": "User Profile",
+  "description": "User Profile App for DHIS2",
+  "version": "31.0.0",
+  "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
   "activities": {
     "dhis": {
-      "href": ".."
+      "href": "*"
     }
   },
-  "appType": "APP",
-  "name": "DHIS2 User Profile Management",
-  "version": "31.0.0",
-  "description": "User Profile App for DHIS2",
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
   "developer": {
     "name": "Adheesh Bhatia"
   },
-  "dhis2": {
-    "apiVersion": "31"
-  },
-  "icons": {
-    "48": "icon.png"
-  },
-  "manifest_generated_at": "Mon Mar 15 2021 17:09:54 GMT+0000 (Coordinated Universal Time)"
+  "manifest_generated_at": "Wed Mar 17 2021 13:20:20 GMT+0000 (Coordinated Universal Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
 }
