@@ -1,0 +1,50 @@
+{
+    "name": "user-profile-app",
+    "version": "31.0.0",
+    "description": "User Profile App for DHIS2",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "build": "d2-app-scripts build",
+        "start": "d2-app-scripts start",
+        "test": "d2-app-scripts test",
+        "deploy": "d2-app-scripts deploy",
+        "lint:staged": "yarn lint --staged",
+        "lint": "d2-style check",
+        "format:staged": "yarn format --staged",
+        "format": "d2-style apply"
+    },
+    "devDependencies": {
+        "@dhis2/cli-app-scripts": "^6.0.0",
+        "@dhis2/cli-style": "^8.0.0"
+    },
+    "dependencies": {
+        "@dhis2/app-runtime": "^2.8.0",
+        "@dhis2/app-runtime-adapter-d2": "^1.0.2",
+        "@dhis2/d2-i18n": "^1.1.0",
+        "@dhis2/ui": "^6.5.5",
+        "babel-polyfill": "^6.26.0",
+        "d2": "^31.9.0",
+        "d2-ui": "^29.0.35",
+        "loglevel": "^1.7.1",
+        "material-design-icons-iconfont": "^6.1.0",
+        "material-ui": "^0.20.0",
+        "react-router": "^3.2.1",
+        "rxjs": "^5.5.7"
+    },
+    "keywords": [
+        "DHIS2",
+        "App"
+    ],
+    "author": "Adheesh Bhatia",
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dhis2/user-profile-app.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dhis2/user-profile-app/issues"
+    },
+    "homepage": "https://github.com/dhis2/user-profile-app"
+}
