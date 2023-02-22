@@ -7,5 +7,8 @@
   "author": {
     "name": "Adheesh Bhatia"
   },
-  "description": "User Profile App for DHIS2"
+  "description": "User Profile App for DHIS2",
+  "entryPoints": {
+    "app": "index.html"
+  }
 }
