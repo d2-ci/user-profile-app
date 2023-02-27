@@ -3,9 +3,12 @@
   "name": "user-profile",
   "title": "User Profile",
   "coreApp": true,
-  "version": "30.3.28",
+  "version": "30.3.29",
   "author": {
     "name": "Adheesh Bhatia"
   },
-  "description": "User Profile App for DHIS2"
+  "description": "User Profile App for DHIS2",
+  "entryPoints": {
+    "app": "index.html"
+  }
 }
