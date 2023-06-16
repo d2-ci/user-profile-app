@@ -271,12 +271,12 @@
     "moment-locales/zh-tw.js": "./static/js/moment-locales/zh-tw.5a41b8ea.chunk.js",
     "moment-locales/zh-tw.js.map": "./static/js/moment-locales/zh-tw.5a41b8ea.chunk.js.map",
     "app.css": "./static/css/app.04b2812e.chunk.css",
-    "app.js": "./static/js/app.567bf7f5.chunk.js",
-    "app.js.map": "./static/js/app.567bf7f5.chunk.js.map",
+    "app.js": "./static/js/app.ddaf0ebf.chunk.js",
+    "app.js.map": "./static/js/app.ddaf0ebf.chunk.js.map",
     "main.js": "./static/js/main.28ce76ad.chunk.js",
     "main.js.map": "./static/js/main.28ce76ad.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.62783446.js",
-    "runtime-main.js.map": "./static/js/runtime-main.62783446.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6a4f60e6.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6a4f60e6.js.map",
     "static/css/138.9dfc7a3f.chunk.css": "./static/css/138.9dfc7a3f.chunk.css",
     "static/js/138.71425887.chunk.js": "./static/js/138.71425887.chunk.js",
     "static/js/138.71425887.chunk.js.map": "./static/js/138.71425887.chunk.js.map",
@@ -428,7 +428,7 @@
     "static/media/index.css": "./static/media/roboto-latin-900italic.cb5ad999.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.62783446.js",
+    "static/js/runtime-main.6a4f60e6.js",
     "static/css/139.476fce4f.chunk.css",
     "static/js/139.c4a30fa9.chunk.js",
     "static/js/main.28ce76ad.chunk.js"
