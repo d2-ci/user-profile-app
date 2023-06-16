@@ -1,0 +1,267 @@
+# 
+# Translators:
+# phil_dhis2, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-01 00:28-0400\n"
+"PO-Revision-Date: 2021-03-09 23:24+0000\n"
+"Last-Translator: phil_dhis2, 2021\n"
+"Language-Team: Urdu (https://www.transifex.com/hisp-uio/teams/100509/ur/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ur\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.0.0b3\n"
+
+#: user_profile
+msgid "User profile"
+msgstr "صارف پروفائل"
+
+#: account_settings
+msgid "Account settings"
+msgstr "اکاؤنٹ کی ترتیبات"
+
+#: user_settings
+msgid "User settings"
+msgstr "صارف کی ترتیبات"
+
+#: user_email_address
+msgid "E-mail"
+msgstr "Ø§Û Ù"
+
+#: surname
+msgid "Surname"
+msgstr "Ù¾Ø§Ø³ ÙØ±Ú"
+
+#: first_name
+msgid "First name"
+msgstr "Ù¾ÛÙØ§ ÙØ§Ù"
+
+#: old_password
+msgid "Old password"
+msgstr "Ù¾Ø±Ø§ÙØ§ Ù¾Ø§Ø³ÙØ±Ú"
+
+#: new_password
+msgid "New password"
+msgstr "ÙÛØ§ Ù¾Ø§Ø³ ÙØ±Ú"
+
+#: repeat_new_password
+msgid "Repeat new password"
+msgstr "ÙÛØ§ Ù¾Ø§Ø³ ÙØ±Ú Ø¯ÙØ¨Ø§Ø±Û Ø¯Ù"
+
+#: openid
+msgid "OpenID"
+msgstr "اُوپن ای.ڈی"
+
+#: username
+msgid "Username"
+msgstr "ØµØ§Ø±Ù Ú©Ø§ ÙØ§Ù"
+
+#: phone_number
+msgid "Mobile phone number"
+msgstr "Ù"
+
+#: job_title
+msgid "Job title"
+msgstr "Ù"
+
+#: introduction
+msgid "Introduction"
+msgstr "ØªØ¹Ø§Ø±Ù"
+
+#: gender
+msgid "Gender"
+msgstr "ØµÙÙ"
+
+#: male
+msgctxt "male"
+msgid "Male"
+msgstr "Ù"
+
+#: female
+msgctxt "female"
+msgid "Female"
+msgstr "Ø¹ÙØ±Øª"
+
+#: other
+msgctxt "other"
+msgid "Other"
+msgstr "Ø¯ÛÚ¯Ø±"
+
+#: gender_male
+msgctxt "gender_male"
+msgid "Male"
+msgstr "Ù"
+
+#: gender_female
+msgctxt "gender_female"
+msgid "Female"
+msgstr "Ø¹ÙØ±Øª"
+
+#: gender_other
+msgctxt "gender_other"
+msgid "Other"
+msgstr "Ø¯ÛÚ¯Ø±"
+
+#: birthday
+msgid "Birthday"
+msgstr "Ø³Ø§ÙÚ¯Ø±Û"
+
+#: nationality
+msgid "Nationality"
+msgstr "ÙÙÙ"
+
+#: employer
+msgid "Employer"
+msgstr "Ù"
+
+#: education
+msgid "Education"
+msgstr "ØªØ¹ÙÛÙ"
+
+#: interests
+msgid "Interests"
+msgstr "Ø¯ÙÚØ³Ù¾Û"
+
+#: languages
+msgid "Languages"
+msgstr "Ø²Ø¨Ø§ÙÛÚº"
+
+#: update_user_profile_success
+msgid "User profile updated"
+msgstr "ØµØ§Ø±Ù Ú©Ø§ Ù¾Ø±ÙÙØ§Ø¦Ù Ø§Ù¾ ÚÛÙ¹"
+
+#: settings
+msgid "Settings"
+msgstr "ØªØ±ØªÛØ¨Ø§Øª"
+
+#: property_to_display_in_analysis_modules
+msgctxt "property_to_display_in_analysis_modules"
+msgid "Property to display in analysis modules"
+msgstr "Ø¬Ø§Ø¦ÛØ¯Ø§Ø¯ ØªØ¬Ø²ÛÛ Ù"
+
+#: general
+msgid "General"
+msgstr "Ø¬ÙØ±Ù"
+
+#: message
+msgid "Message"
+msgstr "Ù¾ÛØºØ§Ù"
+
+#: settings_updated
+msgid "Settings updated"
+msgstr "ØªØ±ØªÛØ¨Ø§Øª Ø§Ù¾ ÚÛÙ¹"
+
+#: failed_to_update_settings
+msgid "Failed to update settings"
+msgstr "ØªØ±ØªÛØ¨Ø§Øª Ú©Ù Ø§Ù¾ ÚÛÙ¹ Ú©Ø±ÙÛ Ù"
+
+#: style
+msgid "Style"
+msgstr "سٹائل"
+
+#: db_language
+msgid "Database language"
+msgstr "ÚÛÙ¹Ø§ Ø¨ÛØ³ Ø²Ø¨Ø§Ù"
+
+#: language
+msgid "Interface language"
+msgstr "Ø§ÙÙ¹Ø±ÙÛØ³ Ø²Ø¨Ø§Ù"
+
+#: enable_message_email_notifications
+msgid "Enable message email notifications"
+msgstr "Ù¾ÛØºØ§Ù"
+
+#: enable_message_sms_notifications
+msgid "Enable message SMS notifications"
+msgstr "Ø§ÛØ³ Ø§ÛÙ"
+
+#: analysis_module
+msgctxt "analysis_module"
+msgid "Property to display in analysis modules"
+msgstr "Ø¬Ø§Ø¦ÛØ¯Ø§Ø¯ ØªØ¬Ø²ÛÛ Ù"
+
+#: name
+msgid "Name"
+msgstr "ÙØ§Ù"
+
+#: short_name
+msgid "Short name"
+msgstr "Ù"
+
+#: system_default
+msgid "System default"
+msgstr "Ø³Ø³Ù¹Ù"
+
+#: value_should_be_an_email
+msgid "Please enter a valid email address"
+msgstr "Ø¨Ø±Ø§Ø¦Û Ù"
+
+#: update_user_profile_fail
+msgid "Failed to update user profile"
+msgstr "ØµØ§Ø±Ù Ù¾Ø±ÙÙØ§Ø¦Ù Ú©Ù Ø§Ù¾ ÚÛÙ¹ Ú©Ø±ÙÛ Ù"
+
+#: update_settings_fail
+msgid "Fialed to update user settings"
+msgstr "ØµØ§Ø±Ù ØªØ±ØªÛØ¨Ø§Øª Ú©Ù Ø§Ù¾ ÚÛÙ¹ Ú©Ø±ÙÛ Ú©Û ÙØ¦Û Fialed"
+
+#: update_password
+msgid "Update password"
+msgstr "Ù¾Ø§Ø³ ÙØ±Ú Ø§Ù¾ ÚÛÙ¹ Ú©Ø±ÛÚº"
+
+#: invalid_password
+msgid ""
+"Password should be at least 8 characters with at least 1 digit and 1 "
+"uppercase letter"
+msgstr ""
+"پاس ورڈ کم از کم 8 حروف ہونا چاہئے جس میں کم سے کم 1 ہندسوں اور 1 بڑے حروف "
+"موجود ہو"
+
+#: passwords_do_not_match
+msgid "The entered values do not match. Please re-enter."
+msgstr "Ø¯Ø±Ø¬ Ú©Ø±Ø¯Û Ø§ÙØ¯Ø§Ø± Ù"
+
+#: use_system_default
+msgid "Use system default"
+msgstr "Ø³Ø³Ù¹Ù"
+
+#: true_notifications
+msgid "Yes"
+msgstr "Ø¬Û ÛØ§Úº"
+
+#: false_notifications
+msgid "No"
+msgstr "ÙÛÛÚº"
+
+#: value_required
+msgid "This field can't be left blank"
+msgstr "ÛÛ ÙÛÙÚ Ø®Ø§ÙÛ ÙÛÛÚº Ø¬Ø§ Ø³Ú©ØªØ§"
+
+#: please_enter_the_correct_password
+msgid "Please enter the correct password"
+msgstr "Ø¨Ø±Ø§Û Ù"
+
+#: no_changes_have_been_made
+msgid "No changes have been made"
+msgstr "Ú©ÙØ¦Û ØªØ¨Ø¯ÛÙÛØ§Úº ÙÛÛÚº Ú©Û Ú¯Ø¦Û ÛÛÚº"
+
+#: validating_please_try_again
+msgid "The form is currently being validated. Please try again."
+msgstr "ÙØ§Ø±Ù"
+
+#: fix_errors_and_try_again
+msgid "The form contains errors. Please fix the errors and try again."
+msgstr "ÙØ§Ø±Ù"
+
+#: password_update_success
+msgid "Your password was updated successfully"
+msgstr "Ø¢Ù¾ Ú©Ø§ Ù¾Ø§Ø³ ÙØ±Ú Ú©Ø§Ù"
+
+#: password_update_failed
+msgid "Failed to update password"
+msgstr "Ù¾Ø§Ø³ ÙØ±Ú Ú©Ù Ø§Ù¾ ÚÛÙ¹ Ú©Ø±ÙÛ Ù"
