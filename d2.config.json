@@ -5,7 +5,7 @@
   "name": "user-profile",
   "title": "User Profile",
   "coreApp": true,
-  "version": "100.0.4",
+  "version": "100.0.5",
   "author": {
     "name": "Adheesh Bhatia"
   },
