@@ -4,7 +4,7 @@
   "short_name": "user-profile",
   "name": "User Profile",
   "description": "User Profile App for DHIS2",
-  "version": "100.4.1",
+  "version": "100.4.2",
   "core_app": true,
   "launch_path": "index.html",
   "plugin_launch_path": "plugin.html",
@@ -20,7 +20,7 @@
   "developer": {
     "name": "Adheesh Bhatia"
   },
-  "manifest_generated_at": "Tue Jan 28 2025 15:51:13 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Tue Feb 04 2025 02:06:23 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
