@@ -1,0 +1,28 @@
+{
+  "app_hub_id": "fca51189-fc0b-4ae0-b479-cd4247256659",
+  "appType": "APP",
+  "short_name": "user-profile",
+  "name": "User Profile",
+  "description": "User Profile App for DHIS2",
+  "version": "100.5.0",
+  "core_app": true,
+  "launch_path": "index.html",
+  "plugin_launch_path": "plugin.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "developer": {
+    "name": "Adheesh Bhatia"
+  },
+  "manifest_generated_at": "Mon Feb 17 2025 12:30:15 GMT+0000 (Coordinated Universal Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
+}
