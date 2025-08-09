@@ -32,7 +32,10 @@
   },
   {
     "locale": "es",
-    "translations": {}
+    "translations": {
+      "APP_TITLE": "Perfil de usuario",
+      "APP_DESCRIPTION": ""
+    }
   },
   {
     "locale": "es_419",
@@ -40,7 +43,10 @@
   },
   {
     "locale": "fr",
-    "translations": {}
+    "translations": {
+      "APP_TITLE": "Profil utilisateur",
+      "APP_DESCRIPTION": ""
+    }
   },
   {
     "locale": "hi_IN",
@@ -148,7 +154,10 @@
   },
   {
     "locale": "zh",
-    "translations": {}
+    "translations": {
+      "APP_TITLE": "用户资料",
+      "APP_DESCRIPTION": "用于 DHIS2 的用户配置文件应用程序"
+    }
   },
   {
     "locale": "zh_CN",
