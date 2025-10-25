@@ -17,7 +17,10 @@
   },
   {
     "locale": "cs",
-    "translations": {}
+    "translations": {
+      "APP_TITLE": "",
+      "APP_DESCRIPTION": ""
+    }
   },
   {
     "locale": "da",
@@ -106,7 +109,10 @@
   },
   {
     "locale": "ru",
-    "translations": {}
+    "translations": {
+      "APP_TITLE": "Профиль пользователя",
+      "APP_DESCRIPTION": "Приложение \"Профиль пользователя\" для DHIS2"
+    }
   },
   {
     "locale": "si",
@@ -150,7 +156,10 @@
   },
   {
     "locale": "vi",
-    "translations": {}
+    "translations": {
+      "APP_TITLE": "Hồ Sơ Người Dùng",
+      "APP_DESCRIPTION": "Ứng dụng Hồ sơ Người dùng cho DHIS2"
+    }
   },
   {
     "locale": "zh",
