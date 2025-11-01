@@ -48,7 +48,7 @@
     "locale": "fr",
     "translations": {
       "APP_TITLE": "Profil utilisateur",
-      "APP_DESCRIPTION": ""
+      "APP_DESCRIPTION": "Application de profil utilisateur pour DHIS2"
     }
   },
   {
@@ -65,7 +65,10 @@
   },
   {
     "locale": "lo",
-    "translations": {}
+    "translations": {
+      "APP_TITLE": "ໂປຣຟາຍຜູ້ໃຊ້",
+      "APP_DESCRIPTION": ""
+    }
   },
   {
     "locale": "my",
