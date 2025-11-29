@@ -18,8 +18,8 @@
   {
     "locale": "cs",
     "translations": {
-      "APP_TITLE": "",
-      "APP_DESCRIPTION": ""
+      "APP_TITLE": "Profil uživatele",
+      "APP_DESCRIPTION": "Aplikace uživatelského profilu pro DHIS2"
     }
   },
   {
