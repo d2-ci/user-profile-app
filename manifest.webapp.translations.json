@@ -34,6 +34,13 @@
     }
   },
   {
+    "locale": "en_US",
+    "translations": {
+      "APP_TITLE": "",
+      "APP_DESCRIPTION": ""
+    }
+  },
+  {
     "locale": "es",
     "translations": {
       "APP_TITLE": "Perfil de usuario",
