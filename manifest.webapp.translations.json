@@ -54,7 +54,7 @@
   {
     "locale": "fr",
     "translations": {
-      "APP_TITLE": "Profil utilisateur",
+      "APP_TITLE": "Profil d'utilisateur",
       "APP_DESCRIPTION": "Application de profil utilisateur pour DHIS2"
     }
   },
