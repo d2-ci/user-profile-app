@@ -60,7 +60,10 @@
   },
   {
     "locale": "hi_IN",
-    "translations": {}
+    "translations": {
+      "APP_TITLE": "",
+      "APP_DESCRIPTION": ""
+    }
   },
   {
     "locale": "id",
