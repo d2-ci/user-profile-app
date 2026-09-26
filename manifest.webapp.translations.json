@@ -1,0 +1,184 @@
+[
+  {
+    "locale": "ar",
+    "translations": {}
+  },
+  {
+    "locale": "ar_IQ",
+    "translations": {}
+  },
+  {
+    "locale": "bn",
+    "translations": {}
+  },
+  {
+    "locale": "ckb",
+    "translations": {}
+  },
+  {
+    "locale": "cs",
+    "translations": {
+      "APP_TITLE": "Profil uživatele",
+      "APP_DESCRIPTION": "Aplikace uživatelského profilu pro DHIS2"
+    }
+  },
+  {
+    "locale": "da",
+    "translations": {}
+  },
+  {
+    "locale": "en",
+    "translations": {
+      "APP_TITLE": "User Profile",
+      "APP_DESCRIPTION": "User Profile App for DHIS2"
+    }
+  },
+  {
+    "locale": "es",
+    "translations": {
+      "APP_TITLE": "Perfil de usuario",
+      "APP_DESCRIPTION": ""
+    }
+  },
+  {
+    "locale": "es_419",
+    "translations": {}
+  },
+  {
+    "locale": "fr",
+    "translations": {
+      "APP_TITLE": "Profil d'utilisateur",
+      "APP_DESCRIPTION": "Application \"Profil d'utilisateur\" pour DHIS2"
+    }
+  },
+  {
+    "locale": "hi_IN",
+    "translations": {
+      "APP_TITLE": "",
+      "APP_DESCRIPTION": ""
+    }
+  },
+  {
+    "locale": "id",
+    "translations": {}
+  },
+  {
+    "locale": "km",
+    "translations": {}
+  },
+  {
+    "locale": "lo",
+    "translations": {
+      "APP_TITLE": "ໂປຣຟາຍຜູ້ໃຊ້",
+      "APP_DESCRIPTION": "ແອັບພລິເຄຊັນສຳລັບຈັດການໂປຣຟາຍຜູ້ໃຊ້ ແລະ ການຕັ້ງຄ່າບັນຊີໃນ DHIS2."
+    }
+  },
+  {
+    "locale": "my",
+    "translations": {}
+  },
+  {
+    "locale": "nb",
+    "translations": {}
+  },
+  {
+    "locale": "ne",
+    "translations": {}
+  },
+  {
+    "locale": "nl",
+    "translations": {}
+  },
+  {
+    "locale": "or",
+    "translations": {}
+  },
+  {
+    "locale": "prs",
+    "translations": {}
+  },
+  {
+    "locale": "ps",
+    "translations": {}
+  },
+  {
+    "locale": "pt",
+    "translations": {}
+  },
+  {
+    "locale": "pt_BR",
+    "translations": {}
+  },
+  {
+    "locale": "ro",
+    "translations": {}
+  },
+  {
+    "locale": "ru",
+    "translations": {
+      "APP_TITLE": "Профиль пользователя",
+      "APP_DESCRIPTION": "Приложение \"Профиль пользователя\" для DHIS2"
+    }
+  },
+  {
+    "locale": "si",
+    "translations": {}
+  },
+  {
+    "locale": "sv",
+    "translations": {}
+  },
+  {
+    "locale": "tet",
+    "translations": {}
+  },
+  {
+    "locale": "tg",
+    "translations": {}
+  },
+  {
+    "locale": "uk",
+    "translations": {}
+  },
+  {
+    "locale": "ur",
+    "translations": {}
+  },
+  {
+    "locale": "uz_Cyrl",
+    "translations": {}
+  },
+  {
+    "locale": "uz_Latn",
+    "translations": {}
+  },
+  {
+    "locale": "uz_UZ_Cyrl",
+    "translations": {}
+  },
+  {
+    "locale": "uz_UZ_Latn",
+    "translations": {}
+  },
+  {
+    "locale": "vi",
+    "translations": {
+      "APP_TITLE": "Hồ Sơ Người Dùng",
+      "APP_DESCRIPTION": "Ứng dụng Hồ sơ Người dùng cho DHIS2"
+    }
+  },
+  {
+    "locale": "zh",
+    "translations": {
+      "APP_TITLE": "用户资料",
+      "APP_DESCRIPTION": "用于 DHIS2 的用户配置文件应用程序"
+    }
+  },
+  {
+    "locale": "zh_CN",
+    "translations": {
+      "APP_TITLE": "",
+      "APP_DESCRIPTION": ""
+    }
+  }
+]
